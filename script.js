@@ -86,7 +86,7 @@ function startCountdown() {
  
     document.getElementById("result").innerHTML = "";
 
-    countdownDiv.style.display = "block"; // Display the countdown
+    countdownDiv.style.display = "block";
     countdownDiv.innerHTML = '<div class="base-timer" id="app">' +
         '<svg class="base-timer__svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">' +
         '<g class="base-timer__circle">' +
@@ -106,7 +106,7 @@ function startCountdown() {
         const timerLabel = document.getElementById("base-timer-label");
 
         const circumference = 283; 
-        const progressPerSecond = circumference / 3;
+        const progressPerSecond = circumference / 4;
 
         const strokeDashArrayValue = Math.max(0, (progressPerSecond * seconds));
         remainingPath.setAttribute("stroke-dasharray", `${strokeDashArrayValue} ${circumference}`);
