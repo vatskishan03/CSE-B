@@ -49,13 +49,13 @@ h1 {
 
 #typing-text {
     color: #555;
-    font-size: 1.1em; /* Adjust the font size to your preference */
+    font-size: 1.1em; 
     overflow: hidden;
     border-right: 0.15em solid #3498db;
     white-space: nowrap;
     margin: 15px;
     font-family: 'Courier New', Courier, monospace;
-    max-width: 100%; /* Allow the text to wrap on smaller screens */
+    max-width: 100%;
     box-sizing: border-box;
 }
 
@@ -192,7 +192,7 @@ footer {
 
 @media (max-width: 767px) {
     #container {
-      margin-top: 20px; /* Adjust this value as needed */
+      margin-top: 20px;
     }
   }
   
