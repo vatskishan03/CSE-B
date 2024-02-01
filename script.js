@@ -1,3 +1,12 @@
+/*
+    File: script.js
+    Description: Script for CSE-B Random Student Generator
+    Author: Kishan
+    Date: [20 December 2023]
+    LinkedIn: https://www.linkedin.com/in/kishan-kumar03/
+    Version: 1.0
+*/
+
 const usns = [
     "2023LCS004","2023LCS006","2023LCS007","2023LCS008","2023LCS019","2023LCS020","4NI22IS006","4NI22IS206","4NI22CS062", "4NI22CS063", "4NI22CS064", "4NI22CS065","4NI22CS067", "4NI22CS068", "4NI22CS069", "4NI22CS070", 
     "4NI22CS071","4NI22CS072", "4NI22CS073", "4NI22CS074",  "4NI22CS076", "4NI22CS077", "4NI22CS078", "4NI22CS079", 
